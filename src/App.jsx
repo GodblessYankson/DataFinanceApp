@@ -1,9 +1,13 @@
 import React from 'react'
 import './index.css'
+import Navbar from './Components/Navbar'
 const App = () => {
   return (
-    <div>
-      <p className='text-blue-500 text-3xl bg-red-400'>I am about to write a new code</p>
+    <div className='w-full bg-[rgb(26,26,26)] text-white'>
+      <div className='max-w-[1040px] mx-auto'>
+        <Navbar />
+      </div>
+      
     </div>
   )
 }
