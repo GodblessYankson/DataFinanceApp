@@ -13,7 +13,7 @@ const Navbar = () => {
     setToggle(!Toggle)
    }
   return (
-    <nav className='px-2 py-4   relative'>
+    <nav className='px-2 py-4   relative max-w-[1040px] mx-auto'>
       <div className=' flex justify-between items-center'>
         <h1 className='text-3xl text-green-500 tracking-wider'>REACT.</h1>
 
