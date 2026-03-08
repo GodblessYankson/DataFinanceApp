@@ -1,5 +1,6 @@
 import React from 'react'
 import { footerIcons, footerLinks } from '../Constant'
+import { FiFacebook, FiGithub, FiInstagram, FiMessageCircle, FiTwitter } from 'react-icons/fi'
 
 const Footer = () => {
   return (
@@ -8,10 +9,11 @@ const Footer = () => {
             <p>REACT.</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente repellat voluptate doloremque sequi. Molestiae iure voluptas nesciunt, iusto debitis maxime eum dolorum aliquid eveniet.</p>
             <div>
+            
                 {
                     footerIcons.map((item) => (
                         <div key={item.id} className='flex gap-2'>
-                            {item.icons}
+                            {item.id === 1 ? <FiFacebook /> : item.id === 2 ? <FiInstagram /> : item.id === 3 ? <FiTwitter /> : item.id === 4 ? <FiGithub /> : <FiMessageCircle />}
                         </div>
                     ))
                 }
@@ -24,7 +26,7 @@ const Footer = () => {
                         <p>{item.title}</p>
                         <div>
                             {item.links.map((item) => (
-                                <p>{item.linkTitle}</p>
+                                <p key={item.id}>{item.linkTitle}</p>
                             ))}
                         </div>
                     </div>

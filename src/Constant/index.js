@@ -115,18 +115,18 @@ export const footerLinks = [
                 to: "#"
             },
             {
-                id: 1,
-                linkTitle: "Analytics",
+                id: 2,
+                linkTitle: "Marketting",
                 to: "#"
             },
             {
-                id: 1,
-                linkTitle: "Analytics",
+                id: 3,
+                linkTitle: "Commence",
                 to: "#"
             },
             {
-                id: 1,
-                linkTitle: "Analytics",
+                id: 4,
+                linkTitle: "Insights",
                 to: "#"
             },
         ]
@@ -151,7 +151,7 @@ export const footerLinks = [
                 to: "#"
             },
             {
-                id: 3,
+                id: 4,
                 linkTitle: "API Status",
                 to: "#"
             },
@@ -193,22 +193,22 @@ export const footerLinks = [
 export const footerIcons = [
     {
         id: 1,
-        icons: <FiFacebook />
+        icons: "Facebook"
     },
     {
         id: 2,
-        icons: <FiInstagram />
+        icons: "Instagram"
     },
     {
         id: 3,
-        icons: <FiTwitter />
+        icons: "Twitter"
     },
     {
         id: 4,
-        icons: <FiGithub />
+        icons: "Github"
     },
     {
         id: 5,
-        icons: <FiGithub />
+        icons: "Whatsapp"
     }
 ]
